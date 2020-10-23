@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+  front:
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    command: bash -c "cd /app/healthchecks/ && ./manage.py runserver 0.0.0.0:8000"
+    ports:
+      - 8099:8000/tcp
+    volumes:
+      - health_data:/app
+
+
+volumes:
+  health_data:
