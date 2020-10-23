@@ -7,6 +7,7 @@ Docker-compose ready to play to test healthcheck
 In Dockerfile you have a default superuser created : 
 
 Login : test@test.com
+
 password : admin
 
 Default port PUBLISHED : 8099
