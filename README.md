@@ -1,1 +1,1 @@
-# healcheck-docker
+# healthcheck-docker
