@@ -29,5 +29,5 @@ RUN cd /app/healthchecks/ && cp hc/local_settings.py.example hc/local_settings.p
 
 RUN cd /app/healthchecks && \
     ./manage.py migrate && \
-    ./manage.py shell -c "from django.contrib.auth.models import User; User.objects.create_superuser('admin', 'test@test.com', 'toto42sh')"
+    ./manage.py shell -c "from django.contrib.auth.models import User; User.objects.create_superuser('admin', 'test@test.com', 'admin')"
 
