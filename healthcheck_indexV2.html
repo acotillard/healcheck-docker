@@ -175,7 +175,7 @@
                     }
                 }
             };
-            httpRequest.open("GET", "https://health.droid.secta.fr/api/v1/checks/");
+            httpRequest.open("GET", "https://<YOUR_HEALTHCHECK>/api/v1/checks/");
             httpRequest.setRequestHeader("X-Api-Key", key);
             httpRequest.send();
         }
