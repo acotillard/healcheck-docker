@@ -10,7 +10,7 @@ Login : test@test.com
 
 password : admin
 
-Default port expose : 8099
+Default port published : 8099
 
 ## usage
 
